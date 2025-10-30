@@ -36,7 +36,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
-		System.out.println("Hello");
+		System.out.println("Hello123");
 
 	}
 }
